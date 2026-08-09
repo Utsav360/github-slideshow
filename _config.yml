@@ -104,6 +104,7 @@ reveal:
 exclude: [
   "Gemfile",
   "Gemfile.lock",
+  "node_modules",
   "vendor",
   "reveal.js/test",
   "reveal.js/index.html",
