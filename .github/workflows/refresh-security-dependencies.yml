@@ -22,8 +22,8 @@ jobs:
       - name: Refresh Ruby dependencies
         run: |
           gem install bundler --no-document
-          bundle update
-          bundle exec jekyll build
+          bundle _4.0.18_ update
+          bundle _4.0.18_ exec jekyll build
           rm -rf node_modules/reveal.js
       - name: Commit refreshed lockfile
         run: |
